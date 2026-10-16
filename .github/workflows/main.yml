@@ -1,0 +1,14 @@
+on:
+  pull_request:
+    branches:
+    - main
+    Push message
+  - name: Push message
+  # You may pin to the exact commit or the version.
+  # uses: akia818/push-message@dec48b91b28539cbdb8ee476866acf1833877280
+  uses: akia818/push-message@v0.1
+  with:
+    # Which server to be used to push message
+    server: # default is QYWX
+    # Message
+    message: # default is Hello world
